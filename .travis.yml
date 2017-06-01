@@ -1,0 +1,7 @@
+dist: trusty
+sudo: false
+
+install:
+- echo "hello"
+
+script: true

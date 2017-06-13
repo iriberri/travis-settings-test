@@ -1,8 +1,7 @@
 env:
-  global:
-    ENV_1: one
-    ENV_2: two
-    ENV_3: three
+  ENV_1: one
+  ENV_2: two
+  ENV_3: three
     
 install:
 - echo "$ENV_1"

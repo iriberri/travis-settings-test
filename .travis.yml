@@ -1,7 +1,13 @@
-dist: trusty
-sudo: false
-
+env:
+  global:
+    ENV_1: one
+    ENV_2: two
+    ENV_3: three
+    
 install:
-- echo "hello"
+- echo "$ENV_1"
+- echo "$ENV_2"
+- echo "$ENV_3"
+- echo "$ENV_4_VIA_API"
 
 script: true
